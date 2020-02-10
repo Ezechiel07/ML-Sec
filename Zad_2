@@ -1,0 +1,9 @@
+import pandas as pd
+np.random.seed(2018)
+rows = 15
+
+df = pd.DataFrame({
+    'age' : np.random.randint(15, 50, rows),
+    'weight' : np.random.randint(50, 80, rows),
+})
+df
