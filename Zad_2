@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 np.random.seed(2018)
 rows = 15
 
